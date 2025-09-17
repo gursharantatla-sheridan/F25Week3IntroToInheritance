@@ -16,10 +16,27 @@ namespace F25Week3IntroToInheritance
         {
             Console.WriteLine("Base class constructor called");
         }
+
+        public BaseClass(string msg)
+        {
+            Console.WriteLine("Base class constructor with message: " + msg);
+        }
     }
 
     public class DerivedClass : BaseClass
     {
+
+        public DerivedClass()
+        {
+            Console.WriteLine("Derived class constructor called");
+        }
+
+        public DerivedClass(string msg)
+        {
+            Console.WriteLine("Derived class constructor with message: " + msg);
+        }
+
+
         public void myMethod()
         {
             //myPrivateVar = 101;
