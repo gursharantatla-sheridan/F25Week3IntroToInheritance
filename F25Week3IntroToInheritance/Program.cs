@@ -7,7 +7,7 @@
             //BaseClass objBase = new BaseClass();
             //objBase.myPublicVar = 1;
 
-            DerivedClass objDerived = new DerivedClass();
+            DerivedClass objDerived = new DerivedClass("hello", "world");
             //objDerived.myPublicVar = 2;
         }
     }

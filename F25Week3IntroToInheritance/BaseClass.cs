@@ -31,9 +31,9 @@ namespace F25Week3IntroToInheritance
             Console.WriteLine("Derived class constructor called");
         }
 
-        public DerivedClass(string msg)
+        public DerivedClass(string msg1, string msg2) : base(msg1)
         {
-            Console.WriteLine("Derived class constructor with message: " + msg);
+            Console.WriteLine("Derived class constructor with message: " + msg2);
         }
 
 
